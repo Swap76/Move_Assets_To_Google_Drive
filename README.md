@@ -33,11 +33,11 @@ to install them on your system.
 * Then Add a new key in the DB for Tracking Upload for this refer [Mongo Help](./mongo_setup.md). Run this commands in mongoshell
 
 * Use following commands for running the programmes:-
-    For running a single thread program 
+    For running a single thread program (Please make sure you create temp folder before running the program)
     ```
     python3 singleThread_Upload.py
     ```
-    For running a multi thread program
+    For running a multi thread program (Please make sure you create folders for downloading files)
     ```
     python3 multiThread_Upload.py
     ```

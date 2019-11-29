@@ -54,7 +54,7 @@ def ProcessUpload(folderName,number):
     episodes = db.episodes # Collection from the Database
     # Keeps track of the count
     count = 0
-    for x in range(5000):
+    for x in range(5000): # This range can very depending on your threads and dataset
         for data in episodes.find({"uploded": False}, {"poster": 1}).skip(number).limit(2):
             link=data["poster"]
             newLink = ''
