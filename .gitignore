@@ -1,0 +1,14 @@
+temp
+temp1
+temp2
+temp3
+temp4
+temp5
+temp6
+temp7
+temp8
+.DS_Store
+.credentials
+__pycache__
+client_secret.json
+token.pickle
