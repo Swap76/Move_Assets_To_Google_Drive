@@ -23,3 +23,16 @@ to install them on your system.
     python3 GoogleDriveSetup.py
     ```
     This command will create a token.pickle file in the root directory
+
+* Setup MongoDB connection by providing Database URL, Database Name, Collection name in the respective program. Then in one terminal run 
+    ```
+    mongod
+    ```
+    Keep this terminal running
+
+* Then Add a new key in the DB for Tracking Upload for this refer [Mongo Help](./mongo_setup.md). Run this commands in mongoshell
+
+* Now run a program of your choice Single/Multi thread.
+    ```
+    python3 <FileName>
+    ```
