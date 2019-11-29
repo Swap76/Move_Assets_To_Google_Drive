@@ -10,5 +10,5 @@ temp8
 .DS_Store
 .credentials
 __pycache__
-client_secret.json
 token.pickle
+credentials.json
